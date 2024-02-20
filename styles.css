@@ -1,0 +1,33 @@
+html {
+    background-image: url(pexels-eberhard-grossgasteiger-2310713.jpg);
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    margin: auto;
+}
+
+.headings, .quotes {
+    background-color: rgba(239, 176, 211, 0.667);
+    text-align: center;
+}
+
+.headings {
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.quotes {
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.author {
+    font-size: 20px;
+    font-style: italic;
+}
+
+button {
+    text-align: center;
+}
