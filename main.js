@@ -54,3 +54,4 @@ function generateQuote() {
 
 // Add event listener to the button to trigger the quote generation
 quoteButton.addEventListener("click", generateQuote);
+
