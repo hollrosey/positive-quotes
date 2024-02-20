@@ -1,3 +1,4 @@
+// Create an array of quote and author objects
 const positiveQuote = [
     {
         quote: `"No one has ever become poor by giving."`,
@@ -31,4 +32,16 @@ const positiveQuote = [
         quote: `"We may encounter many defeats but we must not be defeated."`,
         author: `Maya Angelou`
     },
-]
+];
+
+// Create variables for button, quote and author
+let newQuote = document.querySelector("#quote");
+let newAuthor = document.querySelector("#author");
+let quoteButton = document.querySelector("#quoteButton");
+
+// Create random index generator
+let randomQuote = Math.floor(Math.random() * positiveQuote.length);
+
+// Create an event listener for a button click
+
+// When button is clicked, return a new quote 
